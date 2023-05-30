@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,500;1,700&display=swap');
+
+.imagen-principal {
+  justify-content: center;
+  display: flex;
+  height: 350px;
+}
+
+header {
+  background-image: url("../Img/Fondo_Foto_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+main {
+  background-color: #F5F2F4;
+}
+
+.titulo_principal {
+  background-color: #f9ddfa;
+  color: #1b191b;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: center;
+  font-size: 12px 0;
+  font-weight: 700;
+}
+
+.titulo_secundario {
+  background-color: #f9ddfa;
+  background-position: 500% 50%;
+  color: #1b191b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+span {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: double;
+  font-weight: 700;
+}
+
+u {
+  text-decoration: underline;
+}
+
+.fecha {
+  text-align: center;
+  padding-left: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.interlineado {
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.interlineado_1 {
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+
+}
+
+.titulo_redes {
+  font-style: normal;
+  background-color: #f7d5f8;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.subtitulo_redes {
+  text-align: center;
+  display: inline;
+}
+
+.logo {
+  justify-content: center;
+  display: flex;
+  height: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  background-color:#f9ddfa;
+  border: 1px solid #ecb4ee;
+  padding: 10px 20px;
+  border-radius: 5px 15px;
+  margin:0 100px;
+}
